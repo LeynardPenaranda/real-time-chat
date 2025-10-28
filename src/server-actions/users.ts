@@ -1,3 +1,5 @@
+"use server";
+
 import { connectToDB } from "@/config/db-config";
 import UserModel from "@/models/user-model";
 import { currentUser } from "@clerk/nextjs/server";
